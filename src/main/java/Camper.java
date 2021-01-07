@@ -51,6 +51,16 @@ public class Camper {
     {
         return notes;
     }
+
+    public void setFirstName(String firstName)
+    {
+        this.firstName=firstName;
+    }
+    public void setLastName(String lastName)
+    {
+        this.lastName=lastName;
+    }
+
     double moneyPaid;
     double moneyOwes;
     String firstName;
@@ -65,6 +75,10 @@ public class Camper {
     {
         this.firstName=firstName;
         this.lastName=lastName;
+    }
+    public Camper()
+    {
+
     }
 
     @Override

@@ -7,6 +7,7 @@ public class nonGUIDriver {
 
     static Camp Yagilu = new Camp();
     static SaveFile saveFile= new SaveFile();
+    static ReadFile readFile= new ReadFile();
 
 
     public static void printOptions()
@@ -40,7 +41,7 @@ public class nonGUIDriver {
             scanner = new Scanner(System.in);
             double paid= Double.parseDouble(scanner.nextLine());
 
-            System.out.println("Enter how much have they owe");
+            System.out.println("Enter how much they owe");
             scanner = new Scanner(System.in);
             double owed= Double.parseDouble(scanner.nextLine());
 
@@ -171,18 +172,34 @@ public class nonGUIDriver {
         if ((chosen.equals("s")))
         {
             try {
-                saveFile.writeExcel(Yagilu.getAllCampers(), "/Users/sethjacobs/Documents/GitHub/CampTracker/TryFile");
+                String dir= System.getProperty("user.dir");
+                saveFile.writeExcel(Yagilu.getAllCampers(), dir+"Yagilu");
             }
             catch (Exception e)
             {
                 System.out.println(e.getMessage());
             }
         }
+        else
+        {
+            System.out.println("pick a valid option");
+            printOptions();
+        }
     }
 
 
     public static void main(String[] args) {
-        System.out.println("Welcome to Camp Tracker");
+        System.out.println("Welcome to Camp Tracker\n\n");
+        try
+        {
+            String dir= System.getProperty("user.dir");
+            System.out.println("Loading..");
+            Yagilu.allCampers=readFile.readCamperFromExcelFile(dir+"Yagilu");
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
         printOptions();
 
     }
