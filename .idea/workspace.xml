@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="410229bd-81f7-4269-9b31-2c8fefd34275" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mfnHWFiu5rcrBr58lD9EwRmEXv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="nonGUIDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nonGUIDriver" />
+      <module name="CampTracker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.nonGUIDriver" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="410229bd-81f7-4269-9b31-2c8fefd34275" name="Default Changelist" comment="" />
+      <created>1609893425236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609893425236</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="95" width="811" height="669" key="#Project_Structure" timestamp="1609978423279">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="320" y="95" width="811" height="669" key="#Project_Structure/0.23.1440.821@0.23.1440.821" timestamp="1609978423279" />
+    <state x="533" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1609978598295">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="533" y="121" key="#com.intellij.ide.util.MemberChooser/0.23.1440.821@0.23.1440.821" timestamp="1609978598295" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom" timestamp="1610044250122">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1610044250122" />
+    <state width="1398" height="202" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1609980540904" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center" timestamp="1610044250121">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1610044250121" />
+    <state width="1398" height="202" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1609980540903" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left" timestamp="1610044250121">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1610044250121" />
+    <state width="1398" height="202" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1609980540902" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right" timestamp="1610044250121">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1610044250121" />
+    <state width="1398" height="202" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1609980540904" />
+    <state x="258" y="92" key="Maven.ArtifactSearchDialog" timestamp="1609980610252">
+      <screen x="0" y="23" width="1440" height="822" />
+    </state>
+    <state x="258" y="92" key="Maven.ArtifactSearchDialog/0.23.1440.821@0.23.1440.821" timestamp="1609980301814" />
+    <state x="258" y="92" key="Maven.ArtifactSearchDialog/0.23.1440.822@0.23.1440.822" timestamp="1609980610252" />
+    <state x="208" y="23" width="1024" height="821" key="SettingsEditor" timestamp="1609978344588">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="208" y="23" width="1024" height="821" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1609978344588" />
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1609958396418">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1609958396418" />
+  </component>
+</project>
