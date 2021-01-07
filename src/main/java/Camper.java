@@ -1,3 +1,11 @@
+
+
+/*this class represents camper in a camp and
+ the information needed about them
+ */
+
+
+
 public class Camper {
 
     public double getMoneyPaid() {
@@ -34,11 +42,21 @@ public class Camper {
         session = session;
     }
 
+    public void setNotes(String notes)
+    {
+        this.notes=notes;
+    }
+
+    public String getNotes()
+    {
+        return notes;
+    }
     double moneyPaid;
     double moneyOwes;
     String firstName;
     String lastName;
     String session;
+    String notes;
 
 
 

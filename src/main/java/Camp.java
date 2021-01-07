@@ -6,6 +6,7 @@ public class Camp {
 
     HashMap<String, Camper> firstNameMap= new HashMap<String, Camper>();
     HashMap<String, Camper> lastNameMap= new HashMap<String, Camper>();
+    LinkedList<Camper> allCampers= new LinkedList<Camper>();
     LinkedList<Camper> stillOweList = new LinkedList<Camper>();
     LinkedList<Camper> allPaid= new LinkedList<Camper>();
     LinkedList<Camper> firstMonth = new LinkedList<Camper>();
@@ -24,6 +25,7 @@ public class Camp {
         camper.session=months;
         firstNameMap.put(firstName, camper);
         lastNameMap.put(lastName, camper);
+        allCampers.add(camper);
         if(camper.getMoneyOwes()-camper.getMoneyPaid()>0)
         {
             stillOweList.add(camper);
@@ -72,6 +74,11 @@ public class Camp {
     public List<Camper> getAllPaid()
     {
         return allPaid;
+    }
+
+    public List<Camper> getAllCampers()
+    {
+        return allCampers;
     }
 
     public void deleteCamper(Camper camper)

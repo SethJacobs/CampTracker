@@ -1,8 +1,12 @@
+
+
+import java.io.FileWriter;
 import java.util.Scanner;
 
 public class nonGUIDriver {
 
     static Camp Yagilu = new Camp();
+    static SaveFile saveFile= new SaveFile();
 
 
     public static void printOptions()
@@ -15,6 +19,7 @@ public class nonGUIDriver {
         System.out.println("F get everyone who is all paid");
         System.out.println("G: get everyone who still owes");
         System.out.println("H: Edit camper payment information");
+        System.out.println("I: Edit notes on camper");
         System.out.println("S: save and exit");
 
 
@@ -96,12 +101,12 @@ public class nonGUIDriver {
         }
         if(chosen.equals("f"))
         {
-            Yagilu.getAllPaid();
+            System.out.println(Yagilu.getAllPaid());
             printOptions();
         }
         if(chosen.equals("g"))
         {
-            Yagilu.getStillOwes();
+            System.out.println(Yagilu.getStillOwes());
             printOptions();
         }
         if(chosen.equals("h"))
@@ -137,6 +142,40 @@ public class nonGUIDriver {
                 camper.setMoneyOwes(camper.getMoneyOwes()+owes);
                 System.out.println("his total owed is " +camper.getMoneyPaid());
                 printOptions();
+            }
+        }
+        if(chosen.equals("i"))
+        {
+            System.out.println("Enter first name of camper");
+            scanner = new Scanner(System.in);
+            String firstName=scanner.nextLine().trim();
+            Camper camper= Yagilu.getCamperByFirstName(firstName);
+            if(camper==null)
+            {
+                System.out.println("camper not in system");
+                printOptions();
+            }
+            System.out.println("Enter note");
+            scanner = new Scanner(System.in);
+            String note=scanner.nextLine().trim();
+            if(camper.getNotes()!=null)
+            {
+                camper.setNotes(camper.getNotes()+note);
+            }
+            else
+            {
+                camper.setNotes(note);
+            }
+            printOptions();
+        }
+        if ((chosen.equals("s")))
+        {
+            try {
+                saveFile.writeExcel(Yagilu.getAllCampers(), "/Users/sethjacobs/Documents/GitHub/CampTracker/TryFile");
+            }
+            catch (Exception e)
+            {
+                System.out.println(e.getMessage());
             }
         }
     }
