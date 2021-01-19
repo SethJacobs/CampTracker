@@ -17,7 +17,7 @@ public class nonGUIDriver {
         System.out.println("C: find camper by his last name");
         System.out.println("D: remove camper");
         System.out.println("E: print all campers");
-        System.out.println("F get everyone who is all paid");
+        System.out.println("F: get everyone who is all paid");
         System.out.println("G: get everyone who still owes");
         System.out.println("H: Edit camper payment information");
         System.out.println("I: Edit notes on camper");

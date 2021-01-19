@@ -84,10 +84,8 @@ public class Camper {
     @Override
     public String toString() {
         return
-                "moneyPaid=" + moneyPaid +
-                ", moneyOwes=" + moneyOwes +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", session='" + session + '\'';
+                firstName+" " + lastName+ " moneyPaid = " + moneyPaid +
+                ", moneyOwes = " + moneyOwes +
+                ", session = '" + session + '\'';
     }
 }
